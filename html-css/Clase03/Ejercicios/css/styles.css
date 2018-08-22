@@ -1,0 +1,29 @@
+body {
+  font-size:18px;
+  font-family: Verdana, Geneva, sans-serif;
+  color:#333:
+}
+
+h1 {
+  font-size:37px;
+  line-height: 46px;
+  font-family:
+  color:#000;
+}
+h2 {
+  font-size:25px;
+  line-height: 38px;
+  font-family: Tahoma, Helvetica, sans-serif;
+}
+figure {
+  margin:0;
+}
+.noticia {
+  width:700px;
+  margin:0 auto;
+}
+.bajada {
+  color:#666;
+  font-size:18px;
+  font-weight: 400;
+}

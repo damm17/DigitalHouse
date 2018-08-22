@@ -1,0 +1,77 @@
+@media all and (min-width:480px) {
+    .links .categorias li a {
+        margin-right: 10px;
+    }
+    .mainForm {
+        overflow: hidden;
+    }
+    .mainForm input {
+        width: 70%;
+        float: left;
+        margin-right: 5%;
+    }
+    .formBtn {
+        width: 25%;
+    }
+    main {
+        overflow: hidden;
+    }
+    main .item {
+        float:left;
+        width:45%;
+    }
+    main .item:nth-child(odd){
+        float:right;
+    }
+}
+
+@media all and (min-width:760px) {
+    .toggle-nav {
+        display: none;
+    }
+    .links .categorias {
+        display: block;
+        margin-right: 20px;
+    }
+    main {
+        overflow: hidden;
+    }
+    main .item {
+        float: left;
+        width: 30%;
+        margin-right: 5%;
+    }
+    main .item:nth-child(odd){
+        float:left;
+    }
+    main .item:last-child {
+        margin-right: 0;
+    }
+    .regulares {
+        overflow: hidden;
+    }
+    .regulares .item {
+        float: left;
+        width:45%;
+    }
+    .regulares .item:nth-child(odd) {
+        float:right;
+    }
+}
+
+@media all and (min-width:1200px) {
+    .container {
+        max-width: 1180px;
+        margin: 0 auto;
+    }
+    .regulares .item {
+        width: 30%;
+        margin-right: 5%;
+    }
+    .regulares .item:nth-child(odd) {
+        float:left;
+    }
+    .regulares .item:nth-child(3n+1) {
+        margin-right: 0;
+    }
+}

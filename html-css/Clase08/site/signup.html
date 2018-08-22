@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Donemos :: Home</title>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html"><img src="img/logo.png" alt="Donemos Logo"></a>
+                </div>
+                <div class="links">
+                    <a href="#" class="toggle-nav"><i class="fas fa-bars"></i></a>
+                    <ul class="categorias">
+                        <li><a href="#">Urgencias</a></li>
+                        <li><a href="#">Regulares</a></li>
+                        <li><a href="faq.html">¿Puedo donar?</a></li>
+                    </ul>
+                    <ul class="login">
+                        <li><a href="login.html">Ingresar</a></li>
+                        <li><a href="signup.html">Registrate</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="social container">
+            <ul>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="log-in container">
+        <h1>Registrate</h1>
+        <form class="formLogin" action="#">
+            <label for="email">Email</label>
+            <div class="inputIcon">
+                <input type="email" id="email" name="email" placeholder="Email">
+                <span><i class="fas fa-envelope"></i></span>
+            </div>
+            <div class="error"><p>Por favor, ingresá tu correo electrónico.</p></div>
+            <label for="passwd">Contraseña (al menos 6 caracteres)</label>
+            <div class="inputIcon">
+                <input type="password" id="passwd" name="passwd" placeholder="Contraseña">
+                <span><i class="fas fa-lock"></i></span>
+            </div>
+            <div class="error"><p>Debes ingresar una contraseña.</p></div>
+            <label for="passwd">Repetí tu contraseña</label>
+            <div class="inputIcon">
+                <input type="password" id="passwd" name="passwd" placeholder="Contraseña">
+                <span><i class="fas fa-lock"></i></span>
+            </div>
+            <div class="error"><p>Debes ingresar una contraseña.</p></div>
+            <div class="helpers">
+                <a href="login.html">Ya estoy registrado</a>
+                <a href="#">Soy una empresa</a>
+            </div>
+            <button type="submit" class="formBtn">Registrarme</button>
+        </form>
+    </section>
+    <footer>
+        <div class="container">
+            <ul class="categorias">
+                <li><a href="#">Urgencias</a></li>
+                <li><a href="#">Regulares</a></li>
+                <li><a href="faq.html">¿Puedo donar?</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

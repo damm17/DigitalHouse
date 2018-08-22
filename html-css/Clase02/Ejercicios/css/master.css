@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-sans-serif;
+  font-size:16px;
+  color:#4d4d4d;
+}
+.primer-ejerc h1 {
+  font-size:30px;
+  margin:0;
+}
+.primer-ejerc h2 {
+  font-size:20px;
+  margin:10px 0 0;
+}
+.primer-ejerc h2 span {
+  color:#ccc;
+  font-weight: 400;
+  font-size:16px;
+}
+.primer-ejerc p {
+  color:red;
+}
+.primer-ejerc p:first-of-type {
+  color:purple;
+}
+.segundo-ejerc a {
+  display: inline-block;
+  background:#FD4100;
+  color:#fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size:14px;
+  padding:10px;
+  text-decoration: none;
+  border-radius:2px;
+  border:1px solid transparent;
+  transition:all 0.2s linear;
+}
+.segundo-ejerc a:hover {
+  background:#fff;
+  color:#fd4100;
+  border:1px solid;
+}
+.segundo-ejerc ul {
+  list-style-type: none;
+  padding:0;
+}
+.segundo-ejerc ul li {
+  margin-bottom:15px;
+}
+
+html {
+  height:100%;
+  margin:0;
+}
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+.web {
+  color:#000;
+  font-family: Arial, sans-serif;
+  background:url(../img/modelo.jpg) no-repeat;
+  background-position: top right;
+  height:100vh;
+  background-size: contain;
+  padding:20px 0 0 20px;
+}
+.web ul {
+  list-style-type: none;
+  padding:0;
+}
+.web .nav a{
+  text-transform: uppercase;
+  font-size:14px;
+  text-decoration: none;
+  color:#000;
+  margin-bottom:15px;
+  display: inline-block;
+}
+.web .social li {
+  display: inline-block;
+}
+.web .social img{
+  width:20px;
+}
+.web h2 {
+  text-transform: uppercase;
+  font-size:20px;
+  letter-spacing: 5px;
+  margin-top:100px;
+}
+.web h1 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 36px;
+  margin-top:150px;
+  margin-bottom: 0;
+  background:rgba(255,255,255,0.5);
+  padding:10px 0;
+}

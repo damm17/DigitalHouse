@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Carta</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header id="top">
+        <h1>Nuestro Restó</h1>
+        <h2>Carta</h2>
+    </header>
+    <main>
+        <aside>
+            <nav>
+                <ul>
+                    <li><a href="#entradas">Entradas</a></li>
+                    <li><a href="#plato-principal">Platos Principales</a></li>
+                    <li><a href="#">Ensaladas</a></li>
+                    <li><a href="#">Raws</a></li>
+                    <li><a href="#postres">Postres</a></li>
+                    <li><a href="#">Desayunos y Meriendas</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <section>
+            <div class="tipoPlato" id="entradas">
+                <h3>Entradas</h3>
+                <img src="img/foto-entradas.jpg" alt="">
+                <h4>Muzzarella Sticks</h4>
+                <p>Bastones de muzzarella rebozados</p>
+                <h4>Jalapeños rellenos</h4>
+                <p>Jalapeños rellenos de langostinos y queso Cheddar con panceta.</p>
+                <h4>Ración de Rabas</h4>
+                <p>220 gr. de chicharrón de calamar frito con alioli</p>
+                <h4>Chicken Wings</h4>
+                <p>Alitas de pollo empanada y frita con salsa BBQ</p>
+                <h4>Croquetas de hongos</h4>
+                <p>Croquetas elaboradas a base de hongos disecados.</p>
+                <h4>Langostinos en cous cous</h4>
+                <p>Langostinos a la plancha con frutos secos, tomates cherry, albahaca y cous cous</p>
+                <h4>Chipirones a la plancha</h4>
+                <p>Con chutney de mango y sandía a la plancha</p>
+                <h4>Nachos con refrito</h4>
+                <p>Nachos salteados con porotos negros, chorizo colorado y salsa BBQ</p>
+                <h4>Tapa de morcilla</h4>
+                <p>Pan casero de campo, morcilla, verdeo y queso brie.</p>
+                <h4>Tapa de campo</h4>
+                <p>Morcilla, papa, chutney de manzana y crema de eneldo</p>
+                <h4>Tapa de mollejas</h4>
+                <p>Mollejas con mango, ananá, jengibre, chiles y pochoclo.</p>
+                <a href="#top">Volver arriba</a>
+            </div>
+            <div class="tipoPlato" id="plato-principal">
+               <h3>Platos Principales</h3>
+               <img src="img/foto-ppal.jpg" alt="">
+               <h4>Bife Criollo</h4>
+               <p>Ojo de bife con patines andinos, ensalada de rúcula, provolone y salsa criolla</p>
+               <h4>Ensalada Caesar</h4>
+               <p>Con langostinos o con Pollo</p>
+               <h4>Penne Rigatte</h4>
+               <p>Con salsa filete, crema o rosa.</p>
+               <h4>Ensalada de langostinos</h4>
+               <p>Langostinos salteados, trabajito, cebolla de verdeo y mango con dressing de naranja, vinagre y aceite de oliva.</p>
+               <h4>Ceviche (elaborado en el momento)</h4>
+               <p>Pesca del día del barrio chino con cebolla morada, ajo, rocoto, apio, cilantro, jengibre, maíz cancha, batata y leche de tigre.</p>
+               <h4>Pesca con Chop Suey</h4>
+               <p>Pesca del día a la plancha con olivas, ajo y alcaparras, acompañada de chop suey de vegetales.</p>
+               <h4>Pesca a la plancha</h4>
+               <p>Con risotto verde de espárragos y remolacha asada.</p>
+               <h4>Bife T-Bone</h4>
+               <p>600 gas de carne corte T-Bone con chimichurri, patines andinos y encurtido de remolacha.</p>
+               <h4>Pechuguitas Ahumadas</h4>
+               <p>Pechugas de pollo ahumadas, rellenas con duxelle de hongos y cebolla. Servido con arroz con mostaza y naranjas almendradas</p>
+               <h4>Carré de cerdo</h4>
+               <p>Con Chutney de zanahorias y batatas glaseadas con salsa teriyaki.</p>
+               <h4>Sorrentinos verdes</h4>
+               <p>Rellenos con calabaza asada y queso brie, perfumados con manteca de hierbas y jugo de pomelo.</p>
+               <a href="#top">Volver arriba</a>
+            </div>
+            <div class="tipoPlato" id="postres">
+                <h3>Postres</h3>
+                <img src="img/foto-postre.jpg" alt="">
+                <h4>Flan Casero</h4>
+                <p>Nuestro clásico flan con dulce de leche y crema.</p>
+                <h4>Fondue de chocolate</h4>
+                <p>Con frutas frescas fileteadas.</p>
+                <h4>Degustación de Mousses</h4>
+                <p>Mousse de mango, chocolate, moka y frutos rojos.</p>
+                <h4>Ensalada de frutas</h4>
+                <a href="#top">Volver arriba</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="logo">
+            <img src="img/logo-web.png" alt="">
+        </div>
+        <div class="social">
+            <ul>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+</body>
+</html>

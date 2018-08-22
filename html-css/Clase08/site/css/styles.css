@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Yanone+Kaffeesatz');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin:0;
+    padding:0;
+    background: #f0efe7;
+    font-size:10px;
+    color:#444;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+h1 {
+    font-size:4em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 40px;
+    margin:5px 0;
+}
+h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size:2.5em;
+    text-align: center;
+    margin:5px 0;
+}
+h3 {
+    text-transform: uppercase;
+    border-bottom:1px solid;
+    font-size:2em;
+    margin:0 0 10px 0;
+    padding-bottom:5px
+}
+ul {
+    padding:0;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color:inherit;
+}
+form input {
+    border-radius:6px;
+    border:1px solid #ccc;
+    width:100%;
+    padding:10px;
+    margin-bottom:10px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size:2em;
+}
+.container {
+    max-width:100%;
+    padding:0 15px;
+}
+.main-nav {
+    background:#C33221;
+    border-top:1px solid #B20000;
+    border-bottom:1px solid #B20000;
+    overflow: hidden;
+    padding:5px;
+}
+.logo {
+    float:left;
+    max-width:150px;
+}
+.logo img{
+    width:100%;
+}
+.links {
+    float:right;
+    overflow: hidden;
+}
+.categorias {
+    display: none;
+}
+.categorias,
+.login,
+.toggle-nav{
+    float:left;
+    overflow: hidden;
+}
+.login,
+.categorias{
+    margin-top:17px;
+}
+.categorias li,
+.login li {
+    float:left;
+}
+.login li a,
+.categorias li a{
+    color:#fff;
+    font-size:1.8em;
+    margin-left:5px;
+}
+.login li a {
+    text-transform: uppercase;
+}
+.login li:first-child a:after {
+    content:"|";
+    margin-left:5px;
+}
+.toggle-nav {
+    color:#fff;
+    font-size:1.8em;
+    margin-right:10px;
+    display: inline-block;
+    margin-top:15px;
+}
+.social {
+    overflow: hidden;
+}
+.social ul {
+    overflow: hidden;
+    float:right;
+}
+.social ul li {
+    float:left;
+}
+.social ul li a {
+    padding:5px;
+    font-size:1.6em;
+}
+.mainForm{
+    padding:0 15px;
+    max-width:500px;
+    margin:40px auto 0;
+}
+.formBtn {
+    background:#3C8DBC;
+    border:1px solid #3C8DBC;
+    color:#fff;
+    text-transform: uppercase;
+    width:100%;
+    padding:10px;
+    border-radius:6px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 2em;
+    transition: background 0.2s linear, border-color 0.2s linear;
+    cursor: pointer;
+}
+.formBtn:hover {
+    background:#357ca5;
+    border-color:#357ca5;
+}
+main {
+    margin-top:50px;
+    padding:0 5px;
+}
+main .item {
+    position: relative;
+    margin-bottom:15px;
+}
+main .item img {
+    width:100%;
+}
+main .item .overlay {
+    position: absolute;
+    bottom:2px;
+    left:0;
+    background:rgba(0,0,0,0.5);
+    padding:10px;
+    width:100%;
+}
+main .item .overlay h4 {
+    color:#fff;
+    font-size:2em;
+    margin:0 0 5px;
+}
+main .item .overlay p {
+    font-size:1.6em;
+    color:#fff;
+    margin:5px 0 0;
+}
+.regulares {
+    margin-top:30px;
+    padding: 0 5px;
+}
+.regulares .item {
+    overflow: hidden;
+    margin-bottom:20px;
+}
+.regulares .item img {
+    float:left;
+    margin-right:15px;
+}
+.regulares .item h4 {
+    font-size:1.8em;
+    margin:2px 0 0;
+}
+.regulares .item p {
+    font-size:1.6em;
+}
+footer {
+    background:#C33221;
+    padding:10px 5px;
+    overflow: hidden;
+}
+footer .categorias {
+    display: block;
+    float:right;
+}
+footer .categorias li a {
+    color:#fff;
+    margin-left:15px;
+    font-size:1.8em;
+}
+
+/* FAQ */
+.faq {
+    padding:50px 0;
+    min-height: 80vh;
+}
+.faq h4 {
+    color:#C33221;
+    font-size:1.8em;
+    margin:20px 0 0;
+}
+.faq p {
+    font-size: 1.6em;
+    font-weight: 600;
+    margin:5px 0;
+}
+
+/* LOG IN // REGISTER  */
+
+.log-in {
+    padding:50px 15px;
+    min-height: 70vh;
+}
+.log-in h1 {
+    font-size:2.5em;
+    letter-spacing: 1px;
+    color:#C33221;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+}
+.formLogin {
+    max-width: 350px;
+    margin:0 autO;
+    overflow: hidden;
+}
+.formLogin label {
+    font-size:2em;
+    color:#C33221;
+    margin-left:10px;
+}
+.formLogin .inputIcon {
+    position: relative;
+}
+.formLogin .inputIcon span {
+    position: absolute;
+    top:12px;
+    right:15px;
+    opacity: 0.3;
+    font-size: 2em;
+}
+.formLogin input::placeholder {
+    opacity: 0.5;
+}
+.formLogin .error {
+    position: relative;
+    height:20px;
+    margin-bottom:20px;
+}
+.formLogin .error p {
+    font-size:1.6em;
+    position: absolute;
+    top:0;
+    right:0;
+    margin:0;
+    color:#22c0b7;
+}
+.formLogin .helpers {
+    overflow: hidden;
+    margin-bottom:20px;
+}
+.formLogin .helpers a {
+    float:left;
+    font-size:1.8em;
+    color:#217cd0;
+}
+.formLogin .helpers a:last-child {
+    float:right;
+}
+.formLogin .formBtn {
+    width:50%;
+    float:right;
+}

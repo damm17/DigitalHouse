@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <title>Clase 3 | Html Css</title>
+  </head>
+  <body>
+    <h1>Mi Formulario</h1>
+
+    <form class="" action="../clase.html" method="get"> <!--Abre formulario -->
+      <!-- input Nombre -->
+      <label for="nombre">Nombre</label>
+      <br>
+      <input type="text" id="nombre" name="nombre" placeholder="Más de 5">
+      <!-- "id": vincula al label con el input.
+            "name": identifica al campo cuando se envía el form. El valor de del campo viene de lo que el usuario escribió en la caja de texto.-->
+      <br><br>
+
+      <!-- input Email -->
+      <label for="email">Email</label>
+      <br>
+      <input type="email" id="email" name="email">
+      <!-- "id": vincula al label con el input.
+            "name": identifica al campo cuando se envía el form. El valor de del campo viene de lo que el usuario escribió en la caja de texto.-->
+      <br><br>
+
+      <label for="genero">Género</label>
+      <br>
+      <!-- "name": igual para todos los radio buttons relacionados. De lo contario no funciona la selección cruzada entre los botones.-->
+      <input type="radio" id="masc" name="genero" value="m"> <!-- Masculino (Para mostrarlo en este ejercicio, quitar las marcas de comentarios.-->
+      <!-- Opción 2, colocamos texto al final de la etiqueta <input> -->
+      <label for="masc">Masculino</label> <!-- Opción 1: colocamos un label para identificar la eleccion -->
+
+      <br>
+      <input type="radio" id="fem" name="genero" value="f"> <!-- Femenino (Para mostrarlo en este ejercicio, quitar las marcas de comentarios.-->
+      <!-- Opción 2, colocamos texto al final de la etiqueta <input> -->
+      <label for="fem">Femenino</label> <!-- Opción 1: colocamos un label para identificar la eleccion -->
+      <br>
+
+      <input type="radio" id="ns-nc" name="genero" value="ns-nc"> <!-- Prefiero no decirlo (Para mostrarlo en este ejercicio, quitar las marcas de comentarios.-->
+      <!-- Opción 2, colocamos texto al final de la etiqueta <input> -->
+      <label for="ns-nc">Prefiero no decirlo</label> <!-- Opción 1: colocamos un label para identificar la eleccion -->
+
+      <br><br>
+
+      <label for="hobbies">Hobbies</label>
+      <br>
+      <!-- A diferencia de los type="radio", los check box funcionan independientes entre si.
+      Aún así, para el envío del formulario corresponde que el atributo "name" se mantenga si hablamos de la misma temática. En este caso: hobbies.
+      El texto del checkbox se comporta igual que el de los radio: pude ir al final o dentro de un <label> -->
+      <input type="checkbox" id="gui" name="hobbies" value="guitarra">
+      <label for="gui">Guitarra</label>
+
+      <input type="checkbox" id="fut" name="hobbies" value="futbol">
+      <label for="fut">Fútbol</label>
+
+      <input type="checkbox" id="tenis" name="hobbies" value="tenis">
+      <label for="tenis">Tenis</label>
+      <br><br><br>
+
+      <input type="checkbox" id="tyc" name="tyc" value="yes" required>
+      <label for="tyc">Acepto los términos y condiciones</label>
+
+      <br><br><br>
+
+      <!-- Text área -->
+      <label for="comentarios">Deje sus comentarios</label>
+      <br>
+      <textarea name="name" id="comentarios" rows="8" cols="80" ></textarea>
+
+      <br><br><br>
+
+      <label for="pais">Nacionalidades</label>
+      <br>
+
+
+      <!-- Para que funcione el atributo "required" debe haber una option con value="" (vacío).-->
+      <!-- El atributo "selected" predefine que opción se muestra primero en el desplegable. Sin no está seteado se muestra la primera opción.-->
+      <select name="pais" required>
+        <option value="">Elija su país</option>
+        <option value="ar" selected>Argentina</option>
+        <option value="cl">Chile</option>
+        <option value="uru">Uruguay</option>
+      </select>
+        <br><br><br>
+
+
+      <span class="label label-default">Botón enviar con etiqueta "input type='submit'"</span>
+      <input type="submit" value="enviar">
+      <br><br><br>
+
+
+      <span class="label label-default">Botones enviar tag 'button'</span>
+      <button type="submit">Enviar por botón.</button>
+      <button type="reset"><img src="" alt=""><strong>Resetear</strong></button>
+
+    </form>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+/* Estilo Nota de Clase
+=========================== */
+
+.container {
+	font-family: 'Roboto', sans-serif;
+	width: 700px;
+	font-size: 18px;
+	color: #000;
+}
+h1, h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h1 {
+	font-size: 37px;
+	line-height: 46px;
+}
+.copete {
+	color: #ccc;
+	font-size: 18px;
+}
+h2 {
+	font-size: 25px;
+	line-height: 38px;
+}

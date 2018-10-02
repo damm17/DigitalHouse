@@ -1,0 +1,36 @@
+{
+    "usuarios": [{
+        "nombre": "Charly",
+        "username": "pepecapo",
+        "email": "pepe@gmail.com",
+        "password": "$2y$10$\/haxdn\/HrhvQ5m.vBHPxaeMvdhZF62HsEE.tvKNANXzw61gGCFLN2",
+        "fechaNac": "1990-01-01",
+        "nacionalidad": "BO",
+        "sexo": "Masculino",
+        "intereses": ["M\u00fasica"],
+        "descripcion": "Chorizo tropical",
+        "avatar": "avatar_pepecapo.jpg"
+    }, {
+        "nombre": "Damian Bertazza",
+        "username": "Damm17",
+        "email": "damian.bertazza@gmail.com",
+        "password": "$2y$10$TK5\/PxYcCAfuRUfGIrilh.L8sTuluhKgF6mN7Yow7kpcb\/4zaVmRC",
+        "fechaNac": "1988-12-01",
+        "nacionalidad": "AR",
+        "sexo": "Masculino",
+        "intereses": ["Deportes", "Cine", "Series"],
+        "descripcion": "Descripcion de prueba",
+        "avatar": "avatar_Damm17.png"
+    }, {
+        "nombre": "Johny",
+        "username": "testeo",
+        "email": "asd@asd.com",
+        "password": "$2y$10$\/0hVc0zaubYoZknP4S\/ZneTteofCHRtTcWRgeD3rqqwxlLDAY42Ri",
+        "fechaNac": "1988-12-01",
+        "nacionalidad": "AR",
+        "sexo": "Masculino",
+        "intereses": ["Cine", "Series"],
+        "descripcion": "190287490182740987oisdajhklajshdklashdlkahsd",
+        "avatar": "avatar_testeo.jpg"
+    }]
+}
